@@ -20,7 +20,7 @@ git clone https://github.com/alisour/blockchain-evote.git
 - Go to the IBM Blockchain Extension icon then click to 1 Org Local Fabric
   this will take some time.
   
-  ## Step 3. Import Install and Instantiate Contract
+## Step 3. Import Install and Instantiate Contract
   
  - Next, we have to import our contract before we can install it. 
     Hover onto smart contracts, then click to '...' choose import a package.
@@ -67,7 +67,7 @@ git clone https://github.com/alisour/blockchain-evote.git
       [nodemon] starting `node src/app.js`  
     ```
 
-### Start the Front-end (Client)
+## Start the Front-end (Client)
 
 - First, navigate to the `client` directory, and install the node dependencies.
   ```bash
@@ -98,6 +98,7 @@ git clone https://github.com/alisour/blockchain-evote.git
     Don't forget to free 8080 and 8081 port with this command:
       ```bash
           fuser 8080/tcp -k
-          
+      ```
+      ```bash    
           fuser 8081/tcp -k
       ```
