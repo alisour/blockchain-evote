@@ -97,10 +97,10 @@ git clone https://github.com/alisour/blockchain-evote.git
   Error: listen EADDRINUSE: address already in use::: 8080
     Don't forget to free 8080 and 8081 port with this command:
     
-      ```bash
+      ```
           fuser 8080/tcp -k
       ```
       
-      ```bash    
+      ```
           fuser 8081/tcp -k
       ```
