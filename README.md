@@ -9,6 +9,7 @@
 5. [Export Connection Details](#step-5-export-connection-details)
 6. [Run the App](#step-5-run-the-app)
 
+- This app is created on Linux machine.
 - This repo assumes you installed Vs code and IBM Blockchain Platform vs code extension and dependencies.
 - Installed Prerequisites here: 'https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html'
 - Also installed Hyperledger Fabric 1.4 images here 'https://hyperledger-fabric.readthedocs.io/en/release-1.4/install.html'
