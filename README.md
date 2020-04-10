@@ -9,6 +9,10 @@
 5. [Export Connection Details](#step-5-export-connection-details)
 6. [Run the App](#step-5-run-the-app)
 
+- This repo assumes you installed Vs code and IBM Blockchain Platform vs code extension and dependencies.
+- Installed Prerequisites here: 'https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html'
+- Also installed Hyperledger Fabric 1.4 images here 'https://hyperledger-fabric.readthedocs.io/en/release-1.4/install.html'
+
 ## Step 1. Clone the Repo
 
 Git clone this repo onto your computer in the destination of your choice, then go into the web-app folder:
@@ -90,17 +94,16 @@ git clone https://github.com/alisour/blockchain-evote.git
       To create a production build, run npm run build. 
   ```
 
- Nice. We're pretty much ready to submit transactions on our contract. Go to http://localhost:8080/ 
+ -Nice. We're pretty much ready to submit transactions on our contract. Go to http://localhost:8080/ 
  to see your app.
  
- By the way when you try to restart the server and client you may get an error like this:
-  Error: listen EADDRINUSE: address already in use::: 8080
+ -By the way when you try to restart the server and client you may get an error like this:
+ -Error: listen EADDRINUSE: address already in use::: 8080
     Don't forget to free 8080 and 8081 port with this command:
     
       ```
           fuser 8080/tcp -k
-      ```
+     
       
-      ```
           fuser 8081/tcp -k
       ```
