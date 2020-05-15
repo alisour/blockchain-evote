@@ -7,7 +7,7 @@
 3. [Install Contract](#step-3-Import-Install-and-Instantiate-Contract)
 4. [Export Connection Details](#step-4-Export-Connection-Details)
 5. [Export Local Wallet](#step-5-Export-Local-Wallet)
-6. [Run the App](#step-5-Run-The-App)
+6. [Run the App](#step-6-Run-The-App)
 
 - This app is created on Linux machine.
 - This repo assumes you installed Vs code and IBM Blockchain Platform vs code extension and dependencies.
