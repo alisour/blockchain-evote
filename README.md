@@ -4,10 +4,10 @@
 
 1. [Clone the Repo](#step-1-clone-the-repo)
 2. [Start the Fabric Runtime](#step-2-start-the-fabric-runtime)
-3. [Install Contract](#step-3-install-contract)
-4. [Instantiate Contract](#step-4-Instantiate-contract)
-5. [Export Connection Details](#step-5-export-connection-details)
-6. [Run the App](#step-5-run-the-app)
+3. [Install Contract](#step-3-Import-Install-and-Instantiate-Contract)
+4. [Export Connection Details](#step-4-Export-Connection-Details)
+5. [Export Local Wallet](#step-5-Export-Local-Wallet)
+6. [Run the App](#step-5-Run-The-App)
 
 - This app is created on Linux machine.
 - This repo assumes you installed Vs code and IBM Blockchain Platform vs code extension and dependencies.
