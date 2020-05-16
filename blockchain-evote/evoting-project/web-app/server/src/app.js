@@ -156,13 +156,13 @@ app.post('/queryByKey', async (req, res) => {
   let networkObj = await network.connectToNetwork(appAdmin);
   console.log('after network OBj');
   let response = await network.invoke(networkObj, true, 'readMyAsset', req.body.key);
-  response = JSON.parse(response);
-  if (response.error) {
-    console.log('inside eRRRRR');
-    res.send(response.error);
-  } else {
-    console.log('inside ELSE');
+  //look for error
+  try {
+    response = JSON.parse(response);
     res.send(response);
+  } catch (error) {
+    let myerror = req.body.key + ' does not exist!'
+    res.send(myerror);
   }
 });
 
